@@ -1,12 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import Scroll from './Scroll';
 import DataList from './DataList';
+import Pagination from '../Pagination';
 
 function Main({ details }) {
+  
+  let PageSize = 10;
+  const [currentPage, setCurrentPage] = useState(1);
 
+  const currentTableData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageIndex = firstPageIndex + PageSize;
+    return details.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage]);
+
+  
   const [searchField, setSearchField] = useState("");
 
-  const filteredPersons = details.filter(
+  const filteredPersons = currentTableData.filter(
     person => {
       return (
         person
@@ -29,11 +40,19 @@ function Main({ details }) {
     return (
       <div>
         <DataList filteredPersons={filteredPersons} />
+         <Pagination
+        className="pagination-bar"
+        currentPage={currentPage}
+        totalCount={details.length}
+        pageSize={PageSize}
+        onPageChange={page => setCurrentPage(page)}
+      />
       </div>
     )
   }
 
   return (
+    <>
     <section className="garamond">
       <div className="pa2">
         <input 
@@ -45,6 +64,8 @@ function Main({ details }) {
       </div>
       {searchList()}
     </section>
+    
+    </>
   );
 }
 
