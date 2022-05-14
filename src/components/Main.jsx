@@ -27,17 +27,14 @@ function Main({ details }) {
 
   function searchList() {
     return (
-      <Scroll>
+      <div>
         <DataList filteredPersons={filteredPersons} />
-      </Scroll>
+      </div>
     )
   }
 
   return (
     <section className="garamond">
-      <div className="navy georgia ma0 grow">
-        <h2 className="f2">Search your course</h2>
-      </div>
       <div className="pa2">
         <input 
           className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
