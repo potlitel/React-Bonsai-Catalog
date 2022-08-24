@@ -190,9 +190,9 @@ Project Link: [https://github.com/potlitel/Bonsai-Catalog](https://github.com/po
 
 List of resources I find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
-* [](https://github.com/mayankshubham/react-pagination/tree/master/src)
-* [](https://stackblitz.com/edit/react-1zaeqk?file=src%2Fpagination.scss)
+* [How to Build a Custom Pagination Component in React](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
+* [mayankshubham/react-pagination](https://github.com/mayankshubham/react-pagination/tree/master/src)
+* [react-pagination](https://stackblitz.com/edit/react-1zaeqk?file=src%2Fpagination.scss)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
