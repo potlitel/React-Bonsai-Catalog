@@ -7,10 +7,12 @@ function Main({ details }) {
   
   let PageSize = 10;
   const [currentPage, setCurrentPage] = useState(1);
+  const [totalCount, setTotalCount] = useState(details.length);
 
   const currentTableData = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
+    setTotalCount(details.length);
     return details.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
 
@@ -34,6 +36,7 @@ function Main({ details }) {
 
   const handleChange = e => {
     setSearchField(e.target.value);
+    //setTotalCount(filteredPersons.length);
   };
 
   function searchList() {
@@ -43,7 +46,7 @@ function Main({ details }) {
          <Pagination
         className="pagination-bar"
         currentPage={currentPage}
-        totalCount={details.length}
+        totalCount={totalCount}
         pageSize={PageSize}
         onPageChange={page => setCurrentPage(page)}
       />

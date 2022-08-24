@@ -40,3 +40,9 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
