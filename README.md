@@ -193,6 +193,14 @@ List of resources I find helpful and would like to give credit to. I've included
 * [How to Build a Custom Pagination Component in React](https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/)
 * [mayankshubham/react-pagination](https://github.com/mayankshubham/react-pagination/tree/master/src)
 * [react-pagination](https://stackblitz.com/edit/react-1zaeqk?file=src%2Fpagination.scss)
+* [Build and Dockerize a Full-stack React app with Node.js, MySQL and Nginx](https://www.section.io/engineering-education/build-and-dockerize-a-full-stack-react-app-with-nodejs-and-nginx/)
+* [Deploy your Create React App with Docker and Nginx](https://www.yld.io/blog/deploy-create-react-app-with-docker-and-ngnix/)
+* [How to Build React Application using Docker vs NGINX](https://morioh.com/p/dc6fc6f46d18)
+* [React Nginx Docker: Not serving react, just nginx default page](https://stackoverflow.com/questions/68956937/react-nginx-docker-not-serving-react-just-nginx-default-page)
+* [bbachi/react-nginx-docker](https://github.com/bbachi/react-nginx-docker)
+* [How to Combine Multiple Base Images Using Single Dockerfile?](https://www.geeksforgeeks.org/how-to-combine-multiple-base-images-using-single-dockerfile/)
+* [Use multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/)
+* [Multiple FROMs - what it means](https://stackoverflow.com/questions/33322103/multiple-froms-what-it-means)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
