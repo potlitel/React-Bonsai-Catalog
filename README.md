@@ -99,7 +99,7 @@ This repo is a rich clone of [Dashboard Sidebar Navigation](https://tailwindcomp
       ```sh
       node --version
       ```
-    If you do not have any version of node installed, you can proceed to download it from the following [url](https://www.python.org/downloads/) and install it on your machine. Keep in mind that the Node.js installer include NPM.
+    If you do not have any version of node installed, you can proceed to download it from the following [url](https://nodejs.org/es/) and install it on your machine. Keep in mind that the Node.js installer include NPM.
 
 2. Install an appropiate code editor or Interactive Development Environmente (IDE). I've have the best experiences with Visual Studio Code, so that gets my personal recommendation, but you can use anything you are comfortable with!
 
