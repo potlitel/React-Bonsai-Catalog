@@ -22,7 +22,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/potlitel/Bonsai-Catalog">
+  <a href="https://github.com/potlitel/React-Bonsai-Catalog">
     <img src="images/1_yk5D5cQB3jd7EiPzrDrD5w.png" alt="Logo" width="250" height="120">
   </a>
 
@@ -31,14 +31,14 @@
 <p align="center">
     project_description
     <br />
-    <a href="https://github.com/potlitel/Bonsai-Catalog"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/potlitel/React-Bonsai-Catalog"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/potlitel/Bonsai-Catalog">View Demo</a>
+    <a href="https://github.com/potlitel/React-Bonsai-Catalog">View Demo</a>
     ·
-    <a href="https://github.com/potlitel/Bonsai-Catalog">Report Bug</a>
+    <a href="https://github.com/potlitel/React-Bonsai-Catalog">Report Bug</a>
     ·
-    <a href="https://github.com/potlitel/Bonsai-Catalog/issues">Request Feature</a>
+    <a href="https://github.com/potlitel/React-Bonsai-Catalog/issues">Request Feature</a>
   </p>
 </div>
 
@@ -109,11 +109,11 @@ This repo is a rich clone of [Dashboard Sidebar Navigation](https://tailwindcomp
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/potlitel/Bonsai-Catalog.git
+   git clone https://github.com/potlitel/React-Bonsai-Catalog.git
    ```
 2. Change directory to recently cloned project on previous step 
    ```sh
-   cd Bonsai-Catalog
+   cd React-Bonsai-Catalog
    ```
 3. Install the dependencies
    ```js
@@ -180,7 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/potlitel) - potlitel@gmail.com
 
-Project Link: [https://github.com/potlitel/Bonsai-Catalog](https://github.com/potlitel/Bonsai-Catalog)
+Project Link: [https://github.com/potlitel/React-Bonsai-Catalog](https://github.com/potlitel/React-Bonsai-Catalog)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
